@@ -1,0 +1,15 @@
+# Git files and directory
+.git
+.gitignore
+
+# Docker docker hidden file
+.docker
+
+# Python when we run code then it creates a cache and put that inside pycache and we also remove the virtual env files
+app/__pycache__/
+app/*/__pycache__/
+app/*/*/__pycache__/
+app/*/*/*/__pycache__/
+.env/
+.venv/
+venv/
